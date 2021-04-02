@@ -4,7 +4,7 @@ param(
     [Parameter(Mandatory=$False)][switch]$win64 = $false,
     [Parameter(Mandatory=$False)][string]$withVSPath = "",
     [Parameter(Mandatory=$False)][string]$withWinSDK = "",
-    [Parameter(Mandatory=$False)][switch]$disableMetrics = $false
+    [Parameter(Mandatory=$False)][switch]$disableMetrics = $true
 )
 Set-StrictMode -Version Latest
 # Powershell2-compatible way of forcing named-parameters
