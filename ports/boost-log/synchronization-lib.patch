@@ -1,0 +1,12 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 1d7df88..a22d546 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -330,6 +330,7 @@ if (WIN32 OR CYGWIN)
+         ws2_32
+         mswsock
+         advapi32
++        synchronization
+     )
+ endif()
+ 
